@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#INSTALAÇÃO DO SSH
+apt-get update
+apt-get install openssh-server
+
+echo "avancar"
+
+nano /etc/ssh/sshd_config
